@@ -22,7 +22,7 @@ class FireworksViewController < UIViewController
 
   def create_fireworks
     # Load the spark image for the particle
-    img = UIImage.imageNamed('spark').CGImage
+    img = UIImage.imageNamed('spark2').CGImage
 
     mortar = CAEmitterLayer.layer.retain
     mortar.emitterPosition = CGPointMake(160, 420) #place where the fireworks will shoot out from
